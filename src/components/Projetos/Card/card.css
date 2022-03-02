@@ -1,0 +1,133 @@
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+
+.imagem__card, .conteudo__card {
+    text-align: center;
+    width: 19rem;
+}
+
+/* Parte imagem */
+.imagem__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11rem;
+    background: #FF3E60;
+    transition: ease-in-out .1s;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.imagem {
+    object-fit: contain;
+    height: 130px;
+    border-radius: 3px;
+    box-shadow: 4px 10px 15px #4f000e;
+}
+
+.imagem__card:hover .imagem{
+    transform: scale(1.03);
+    filter: grayscale(.5);
+}
+
+/* Parte conteúdo */
+.conteudo__card {
+    background: #E0E0E0;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.titulo__projeto {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.descricao__projeto {
+    display: flex;
+    padding: 0 15px;
+    flex-wrap: wrap;
+}
+
+.botao__card {
+    background: #FF3E60;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    width: 8rem;
+    transition: ease-in-out .1s;  
+}
+
+.botao__card:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 675px) {
+    .card {
+        margin-bottom: 0;
+    }
+    
+    .imagem__card, .conteudo__card {
+        width: 15rem;
+    }
+
+    .imagem {
+        height: 105px;
+    }
+
+    .imagem__card {
+        height: 9rem;
+    }
+
+    .conteudo__card {
+        height: 11rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .imagem__card, .conteudo__card {
+        width: 11rem;
+    }
+
+    .imagem {
+        height: 80px;
+    }
+
+    .imagem__card {
+        height: 7rem;
+    }
+
+    .conteudo__card {
+        height: 13rem;
+    }
+
+}
+
+@media (max-width: 395px) {
+    .imagem__card, .conteudo__card {
+        width: 9.8rem;
+    }
+
+    .imagem {
+        height: 65px;
+    }
+
+    .imagem__card {
+        height: 6rem;
+    }
+
+    .conteudo__card {
+        height: 15rem;
+    }
+
+}

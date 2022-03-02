@@ -1,0 +1,13 @@
+.redes-sociais {
+    margin: 25px 0 10px 0;
+    display: flex;
+}
+
+.icone {
+    margin-right: 12px;
+}
+
+.icone:hover {
+    transform: scale(1.1);
+    color: #FF1C52;
+}

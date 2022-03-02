@@ -1,0 +1,22 @@
+.section-titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.symbol {
+    margin-top: 20px;
+}
+
+.color-symbol {
+    color: #FF1C52;
+}
+
+.title {
+    font-size: 1.8rem;
+}
