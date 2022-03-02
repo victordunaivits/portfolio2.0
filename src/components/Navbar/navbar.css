@@ -21,6 +21,7 @@
     display: flex;
     position: relative;
     right: 20px;
+    cursor: pointer;
 }
 
 li {
@@ -31,14 +32,13 @@ li {
 .item-navbar {
     font-weight: 400;
     transition: ease-in-out .1s;
-    cursor: pointer;
 }
 
 .item-navbar:hover {
     color: #fff;
     background-color: #FF1C52;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .logo {
@@ -85,7 +85,7 @@ li {
     }
 
     .item-navbar:hover {
-        background-color: #2c2c2c;
+        background-color: #161616;
     }
 
     .nav-toggle {
