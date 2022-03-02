@@ -51,17 +51,17 @@ function Formulario() {
         onSubmit={sendEmail}
         onSubmitCapture={toggleModal}
       >
-        <div data-aos="fade-right">
+        <div data-aos="zoom-out-right">
           <label className="lbl-nome">Nome</label>
           <input type="text" id="nome" name="from_name" required />
         </div>
 
-        <div data-aos="fade-left">
+        <div data-aos="zoom-out-right">
           <label className="lbl-email">E-mail</label>
           <input type="email" id="email" name="from_email" required />
         </div>
 
-        <div data-aos="fade-up-right">
+        <div data-aos="zoom-out-right">
           <label className="lbl-mensagem" required>
             Mensagem
           </label>

@@ -10,13 +10,14 @@ function Mensagem() {
 
   return (
     <div className="container-msg">
-      <p data-aos="fade-right" className="paragrafo espaco">
+      <p data-aos="fade-down" className="paragrafo espaco">
+        
         Meu nome é Victor, tenho 20 anos e sou um amante da tecnologia. Sou
         formado em Análise e Desenvolvimento de Sistemas pela Universidade
         Paulista.
       </p>
 
-      <p data-aos="fade-left" className="paragrafo">
+      <p data-aos="fade-up" className="paragrafo">
         Iniciei no desenvolvimento frontend em 2021. Atualmente venho estudando
         novas tecnologias e frameworks, buscando me aperfeiçoar cada vez mais.
       </p>
