@@ -51,13 +51,14 @@ input {
 
 textarea {
     resize: none;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     height: 10rem;
 }
 
 .btn-enviar {
     cursor: pointer;
     background: #FB485E;
+    margin-top: 10px;
     height: 2.5rem;
     font-size: 1rem;
     font-weight: 600;

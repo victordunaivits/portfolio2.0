@@ -11,7 +11,8 @@ html {
   height: 100%;
   width: 100%;
   font-family: 'Dosis', sans-serif;
-  background: #1D1D1D;
+  /* background: #1D1D1D; */
+  background: linear-gradient(90deg, #131313, #1d1d1d, #131313);
   color: #fff;
 }
 

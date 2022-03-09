@@ -72,9 +72,10 @@
     transform: scale(1.1);
 }
 
+
 @media (max-width: 675px) {
     .card {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
     
     .imagem__card, .conteudo__card {

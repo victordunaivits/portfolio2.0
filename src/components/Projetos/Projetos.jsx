@@ -32,7 +32,7 @@ function Projetos() {
     <section className="container__projetos" id='projetos'>
       <Titulo title="Projetos" />
 
-      <div data-aos="zoom-out-right" className="container__cards">
+      <div data-aos="slide-up" className="container__cards">
         <Home data={data} />
       </div>
 
