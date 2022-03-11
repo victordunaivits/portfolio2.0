@@ -19,7 +19,6 @@
     align-items: center;
     height: 11rem;
     background: #FF3E60;
-    transition: ease-in-out .1s;
     border-radius: 5px 5px 0 0;
 }
 

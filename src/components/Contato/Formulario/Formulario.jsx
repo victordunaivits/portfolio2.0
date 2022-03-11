@@ -50,18 +50,19 @@ function Formulario() {
         ref={form}
         onSubmit={sendEmail}
         onSubmitCapture={toggleModal}
+        data-aos="slide-right"
       >
-        <div data-aos="zoom-out-right">
+        <div >
           <label className="lbl-nome">Nome</label>
           <input type="text" id="nome" name="from_name" required />
         </div>
 
-        <div data-aos="zoom-out-right">
+        <div>
           <label className="lbl-email">E-mail</label>
           <input type="email" id="email" name="from_email" required />
         </div>
 
-        <div data-aos="zoom-out-right">
+        <div>
           <label className="lbl-mensagem" required>
             Mensagem
           </label>

@@ -9,7 +9,7 @@ function Apresentacao() {
       <h1>Victor Dunaivits</h1>
       <h2>
         <Typical
-          steps={["Desenvolvedor Frontend", 2000, "UI/UX Designer", 2000]}
+          steps={["Desenvolvedor Frontend", 2000, "UI Designer", 2000]}
           loop={Infinity}
           wrapper="p"
         />
