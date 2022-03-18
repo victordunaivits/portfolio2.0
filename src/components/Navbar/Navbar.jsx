@@ -6,6 +6,7 @@ import "./navbar.css";
 function Navbar() {
   const [show, handleShow] = useState(false);
 
+  // Alterar cor da navbar conforme rolamento da página
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {

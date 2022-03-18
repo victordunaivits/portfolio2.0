@@ -22,17 +22,18 @@
     border-radius: 5px 5px 0 0;
 }
 
-
 .imagem {
     object-fit: contain;
     height: 130px;
     border-radius: 3px;
     box-shadow: 4px 10px 15px #4f000e;
+    filter: grayscale(1);
+    transition: ease-in-out .1s;
 }
 
-.imagem__card:hover .imagem{
+.imagem:hover {
+    filter: grayscale(0);
     transform: scale(1.03);
-    filter: grayscale(.5);
 }
 
 /* Parte conteúdo */

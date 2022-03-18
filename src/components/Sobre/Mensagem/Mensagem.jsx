@@ -11,7 +11,6 @@ function Mensagem() {
   return (
     <div className="container-msg">
       <p data-aos="slide-down" className="paragrafo espaco">
-        
         Meu nome é Victor, tenho 20 anos e sou um amante da tecnologia. Sou
         formado em Análise e Desenvolvimento de Sistemas pela Universidade
         Paulista.

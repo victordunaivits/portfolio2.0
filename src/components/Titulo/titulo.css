@@ -20,3 +20,14 @@
 .title {
     font-size: 1.8rem;
 }
+
+.subtitulo {
+    margin-top: 35px;
+    color: #DFDFDF;
+    font-size: 1.4rem;
+}
+
+.color {
+    color: #FF1C52;
+    margin: 0 10px;
+}

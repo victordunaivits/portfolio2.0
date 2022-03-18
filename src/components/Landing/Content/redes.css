@@ -4,10 +4,10 @@
 }
 
 .icone {
-    margin-right: 12px;
+    padding: 0 7px;
 }
 
 .icone:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
     color: #FF1C52;
 }

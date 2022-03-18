@@ -4,8 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 0 200px;
 }
 
 .container__cards {
@@ -24,8 +23,7 @@
 }
 
 .link__repositorio:hover {
-    color: #fff;
-    font-size: 20px;
+    color: #d1d1d1;
 }
 
 .link__repositorio:hover .seta {
@@ -33,10 +31,15 @@
     left: 5px;
 }
 
+@media(max-width: 1360px) {
+    .container__projetos {
+        padding: 0 60px;
+    }
+}
+
 @media (max-width: 770px) {
     .container__projetos {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding: 0;
     }
 }
 

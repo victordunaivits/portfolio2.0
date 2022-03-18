@@ -11,8 +11,7 @@ html {
   height: 100%;
   width: 100%;
   font-family: 'Dosis', sans-serif;
-  /* background: #1D1D1D; */
-  background: linear-gradient(90deg, #131313, #1d1d1d, #131313);
+  background: #111111;
   color: #fff;
 }
 
@@ -23,4 +22,18 @@ a {
 
 ul {
   list-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               
+}
+
+body::-webkit-scrollbar-track {
+  background: #111111;       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FF3E60;    
+  border-radius: 20px;       
+  border: 3px solid #111111;  
 }

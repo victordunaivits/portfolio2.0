@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 
-function Menu({ sobre_mim }) {
+function Menu() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

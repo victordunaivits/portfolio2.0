@@ -50,7 +50,7 @@ function Formulario() {
         ref={form}
         onSubmit={sendEmail}
         onSubmitCapture={toggleModal}
-        data-aos="slide-right"
+        data-aos="fade-down"
       >
         <div >
           <label className="lbl-nome">Nome</label>

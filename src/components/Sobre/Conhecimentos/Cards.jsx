@@ -1,5 +1,5 @@
 import React from 'react'
-import Subtitulo from './Subtitulo/Subtitulo'
+import Subtitulo from '../../Titulo/Subtitulo'
 import Skill from './Skills/Skill'
 import './conhecimentos.css'
 
@@ -7,7 +7,7 @@ import './conhecimentos.css'
 function Cards() {
   return (
     <div className='cards'>
-    <Subtitulo />
+    <Subtitulo subtitulo="Conhecimentos" />
     <Skill />
     </div>
   )

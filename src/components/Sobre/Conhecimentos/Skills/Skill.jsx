@@ -23,8 +23,8 @@ function Skill() {
   return (
     <div className="container__skills">
       <div data-aos="fade-up" className="skill">
-        {linguagens.map((valor, index) => (
-          <Componente key={index} nome={valor} />
+        {linguagens.map((nome, index) => (
+          <Componente key={index} nome={nome} />
         ))}
       </div>
     </div>
