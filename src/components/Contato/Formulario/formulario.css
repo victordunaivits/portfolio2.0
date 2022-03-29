@@ -23,7 +23,7 @@ label {
     display: block;
     position: relative;
     padding: 2px;
-    background: #FB485E;
+    background: #ff2d52;
     border-radius: 50px 0px 50px 0px;
     top: 10px;
     left: 2px;
@@ -41,7 +41,7 @@ input, textarea {
     border-radius: 5px;
     font-family: inherit;
     font-size: 1rem;
-    border: solid 1px #FB485E;
+    border: solid 1px #ff2d52;
 }
 
 input {
@@ -57,20 +57,17 @@ textarea {
 
 .btn-enviar {
     cursor: pointer;
-    background: #FB485E;
+    background: #ff2d52;
     margin-top: 10px;
-    height: 2.5rem;
+    height: 2.2rem;
+    width: 100%;
     font-size: 1rem;
     font-weight: 600;
     color: #fff;
     transition: ease-in-out .1s;
+
 }
 
 .btn-enviar:hover {
     transform: scale(1.05);
-}
-
-.errorMsg {
-    font-size: .8rem;
-    color: red;
 }

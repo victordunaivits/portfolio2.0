@@ -18,15 +18,14 @@
     justify-content: center;
     align-items: center;
     height: 11rem;
-    background: #FF3E60;
-    border-radius: 5px 5px 0 0;
+    background: #ff2d52;
+    border-radius: 10px 10px 0 0;
 }
 
 .imagem {
-    object-fit: contain;
-    height: 130px;
-    border-radius: 3px;
-    box-shadow: 4px 10px 15px #4f000e;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 5px;
     filter: grayscale(1);
     transition: ease-in-out .1s;
 }
@@ -45,7 +44,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 10rem;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 10px 10px;
 }
 
 .titulo__projeto {
@@ -60,7 +59,7 @@
 }
 
 .botao__card {
-    background: #FF3E60;
+    background: #ff2d52;
     border-radius: 3px;
     cursor: pointer;
     padding: 5px;

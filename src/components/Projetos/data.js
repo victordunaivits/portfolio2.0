@@ -48,7 +48,8 @@ const projetos = [
   {
     id: 6,
     title: "Login page",
-    descricao: "Página de login com validação de campos. Desenvolvido em Vanilla Javascript.",
+    descricao:
+      "Página de login com validação de campos. Desenvolvido em Vanilla Javascript.",
     img: require("./imagens/login.png"),
     url: "https://github.com/victordunaivits/login",
     linkProjeto: "https://login-sable.vercel.app/",
@@ -56,11 +57,12 @@ const projetos = [
   {
     id: 7,
     title: "Crypto Tracker",
-    descricao: "App para consulta de criptomoedas. Desenvolvido em ReactJS com integração da API CoinGecko.",
+    descricao:
+      "App para consulta de criptomoedas. Desenvolvido em ReactJS com integração da API CoinGecko.",
     img: require("./imagens/crypto.png"),
     url: "https://github.com/victordunaivits/crypto-tracker",
     linkProjeto: "https://crypto-app-teal-alpha.vercel.app/",
-  }
+  },
 ];
 
 export default projetos;

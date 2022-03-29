@@ -9,7 +9,7 @@
 }
 
 .conteudo h2 {
-    color: #FF3E60;
+    color: #ff2d52;
     font-size: 2rem;
     font-weight: 600;
 }
@@ -18,7 +18,7 @@
     margin-top: 20px;
     padding: 15px;
     font-size: 1.2rem;
-    background: #FF3E60;
+    background: #ff2d52;
     border-radius: 5px;
     transition: ease-in-out .1s;
 }

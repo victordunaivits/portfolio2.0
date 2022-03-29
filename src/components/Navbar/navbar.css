@@ -14,7 +14,7 @@
 }
 
 .navbar__black {
-    background: #0a0a0a;
+    background: rgba(11, 11, 20, 1);
 }
 
 .itens {
@@ -36,7 +36,7 @@ li {
 
 .item-navbar:hover {
     color: #fff;
-    background-color: #FF1C52;
+    background-color: #ff2d52;
     padding: 5px;
     border-radius: 3px;
 }
@@ -58,7 +58,7 @@ li {
         position: absolute;
         top: 80px;
         flex-direction: column;
-        background: #FF1C52;
+        background: #ff2d52;
         left: 0;
         width: 100%;
         height: 12rem;
@@ -82,10 +82,6 @@ li {
 
     .item-navbar {
         margin-left: 20px;
-    }
-
-    .item-navbar:hover {
-        background-color: #161616;
     }
 
     .nav-toggle {

@@ -14,7 +14,7 @@ function Card({ titulo, descricao, bg, url, linkProjeto }) {
         <p className="titulo__projeto">{titulo}</p>
         <p className="descricao__projeto">{descricao}</p>
         <a href={url} target="_blank" className="botao__card" rel="noreferrer">
-          Venha conhecer
+          Repositório
         </a>
       </div>
     </div>
