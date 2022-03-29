@@ -1,24 +1,3 @@
 .sobre-mim {
     width: 100%;
-    height: 30rem;
 }
-
-@media(max-width: 833px) {
-    .sobre-mim {
-        height: 32rem;
-    }
-}
-
-@media (max-width: 500px) {
-    .sobre-mim {
-        height: 38rem;
-    }
-}
-
-@media (max-width: 450px) {
-    .sobre-mim {
-        height: 40rem;
-        margin-top: 60px;
-    }
-}
-
