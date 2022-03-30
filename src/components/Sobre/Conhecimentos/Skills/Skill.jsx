@@ -12,7 +12,6 @@ function Skill() {
     "HTML",
     "CSS",
     "JavaScript",
-    "TypeScript",
     "ReactJS",
     "Bootstrap",
     "SQL",
