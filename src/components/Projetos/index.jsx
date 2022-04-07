@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import Titulo from "../Titulo/Titulo";
-import Card from "./Card/Card";
+import Card from "./Card";
 import "./projetos.css";
-import data from "./data";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import data from "./data";
 
 const Home = ({ data }) => {
   return (
@@ -32,7 +32,7 @@ function Projetos() {
     <section className="container__projetos" id='projetos'>
       <Titulo title="Projetos" />
 
-      <div data-aos="slide-up" className="container__cards">
+      <div data-aos="fade-up" className="container__cards">
         <Home data={data} />
       </div>
 

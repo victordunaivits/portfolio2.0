@@ -1,7 +1,7 @@
 import React from "react";
 import Titulo from "../Titulo/Titulo";
-import Mensagem from "./Mensagem/Mensagem";
-import Cards from "./Conhecimentos/Cards";
+import Mensagem from "./Mensagem";
+import Cards from "./Conhecimentos";
 import "./sobre.css";
 
 function Sobre() {

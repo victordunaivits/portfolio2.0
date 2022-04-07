@@ -17,7 +17,7 @@ function Redes() {
         className="icone"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={faGithub} size="2x" fade />
+        <FontAwesomeIcon icon={faGithub} size="2x" fade/>
       </a>
       <a
         href="https://www.linkedin.com/in/victordunaivits/"
@@ -25,7 +25,7 @@ function Redes() {
         className="icone"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={faLinkedin} size="2x" fade />
+        <FontAwesomeIcon icon={faLinkedin} size="2x" fade/>
       </a>
       <a
         href="https://www.instagram.com/victordunaivits/"
@@ -33,7 +33,7 @@ function Redes() {
         className="icone"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={faInstagram} size="2x" fade />
+        <FontAwesomeIcon icon={faInstagram} size="2x" fade/>
       </a>
 
       <a
@@ -42,7 +42,7 @@ function Redes() {
         className="icone"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={faSpotify} size="2x" fade />
+        <FontAwesomeIcon icon={faSpotify} size="2x" fade/>
       </a>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import Titulo from "../Titulo/Titulo";
-import Formulario from "./Formulario/Formulario";
+import Formulario from "./Formulario/";
 import "./contato.css";
 
 function Contato() {

@@ -1,21 +1,21 @@
 import React from "react";
-import Contato from "./components/Contato/Contato";
-import Landing from "./components/Landing/Landing";
-import Navbar from "./components/Navbar/Navbar";
-import Projetos from "./components/Projetos/Projetos";
-import Sobre from "./components/Sobre/Sobre";
-import Footer from "./components/Footer/Footer";
+import Contato from "./components/Contato";
+import Landing from "./components/Landing";
+import Navbar from "./components/Navbar";
+import Projetos from "./components/Projetos";
+import Sobre from "./components/Sobre";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <main>
       <Navbar />
       <Landing />
       <Sobre />
       <Projetos />
       <Contato />
       <Footer />
-    </div>
+    </main>
   );
 }
 

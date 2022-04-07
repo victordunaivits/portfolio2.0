@@ -9,20 +9,19 @@ function Skill() {
   });
 
   const linguagens = [
+    "ReactJS",
+    "Javascript",
+    "Typescript",
+    "Bootstrap",
+    "Sass",
     "HTML",
     "CSS",
-    "JavaScript",
-    "ReactJS",
-    "Bootstrap",
-    "SQL",
-    "UI Design",
-    "Git",
-    "Responsive Design",
+    "UI Design"
   ];
 
   return (
     <div className="container__skills">
-      <div data-aos="fade-up" className="skill">
+      <div data-aos="fade-right" className="skill">
         {linguagens.map((nome, index) => (
           <Componente key={index} nome={nome} />
         ))}

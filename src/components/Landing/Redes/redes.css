@@ -5,6 +5,7 @@
 
 .icone {
     padding: 0 7px;
+    transition: ease-in-out .2s;
 }
 
 .icone:hover {

@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import "./content.css";
+import "./Apresentacao.css";
 
 function Apresentacao() {
   return (
