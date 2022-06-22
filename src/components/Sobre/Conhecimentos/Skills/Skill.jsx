@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import Componente from "./Componente";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import './index.css'
 
 function Skill() {
   useEffect(() => {
@@ -10,20 +10,22 @@ function Skill() {
 
   const linguagens = [
     "ReactJS",
-    "Javascript",
+    "Python",
     "Typescript",
+    "Javascript",
     "Bootstrap",
+    "MaterialUI",
     "Sass",
     "HTML",
     "CSS",
-    "UI Design"
+    "UI/UX Design"
   ];
 
   return (
     <div className="container__skills">
       <div data-aos="fade-right" className="skill">
-        {linguagens.map((nome, index) => (
-          <Componente key={index} nome={nome} />
+        {linguagens.map((nome, i) => (
+          <div className="solo__component" key={i}>{nome}</div>
         ))}
       </div>
     </div>

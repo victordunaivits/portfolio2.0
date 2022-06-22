@@ -19,3 +19,16 @@
 .solo__component:hover {
     transform: scale(1.08);
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}

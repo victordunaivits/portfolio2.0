@@ -1,7 +1,7 @@
 import React from 'react'
-import Subtitulo from '../../Titulo/Subtitulo'
-import Skill from './Skills/Skill'
-import './conhecimentos.css'
+import Subtitulo from '../../../Titulo/Subtitulo'
+import Skill from './Skill'
+import './index.css'
 
 
 function Cards() {
