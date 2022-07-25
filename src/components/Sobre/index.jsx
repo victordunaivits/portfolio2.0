@@ -9,8 +9,7 @@ function Sobre() {
       <Titulo title="Sobre mim" />
       <div className="container-msg">
         <p data-aos="fade-up" className="paragrafo espaco">
-          Meu nome é Victor, tenho 21 anos e sou um amante da tecnologia. Sou
-          formado em Análise e Desenvolvimento de Sistemas pela Universidade
+          Meu nome é Victor, tenho 21 anos e sou um amante da tecnologia. Sou desenvolvedor frontend e formado em Análise e Desenvolvimento de Sistemas pela Universidade
           Paulista.
         </p>
 

@@ -9,7 +9,8 @@ function Skill() {
   });
 
   const linguagens = [
-    "ReactJS",
+    "React",
+    "Angular",
     "Python",
     "Typescript",
     "Javascript",
